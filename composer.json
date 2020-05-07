@@ -1,9 +1,9 @@
 {
-    "name": "raulr/google-play-scraper",
+    "name": "anilken/google-play-scraper",
     "type": "library",
     "description": "A PHP scraper to get app data from Google Play",
     "keywords": ["google play", "scraper"],
-    "homepage": "https://github.com/raulr/google-play-scraper",
+    "homepage": "https://github.com/anilken/google-play-scraper",
     "license": "MIT",
     "require": {
         "fabpot/goutte": "^3.0"
@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Raulr\\GooglePlayScraper\\": "src/"
+            "Anilken\\GooglePlayScraper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Raulr\\GooglePlayScraper\\Tests\\": "tests/"
+            "Anilken\\GooglePlayScraper\\Tests\\": "tests/"
         }
     },
     "require-dev": {
